@@ -6,12 +6,19 @@
     <link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="http://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
     <style type="text/css">
-        .orient{
+        .orient-0{
             transform:rotate(90deg);
             -ms-transform:rotate(90deg); /* Internet Explorer */
             -moz-transform:rotate(90deg); /* Firefox */
             -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
             -o-transform:rotate(90deg); /* Opera */
+        }
+        .orient-90{
+            transform:rotate(0deg);
+            -ms-transform:rotate(0deg); /* Internet Explorer */
+            -moz-transform:rotate(0deg); /* Firefox */
+            -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+            -o-transform:rotate(0deg); /* Opera */
         }
     </style>
     <script>
@@ -19,14 +26,18 @@
             if (window.orientation == 0 || window.orientation == 180) {
                 $("html").addClass("orient");
                 return false;
+            }else if (window.orientation == 90 || window.orientation == -90) {
+                $("html").addClass("orient-90");
+                return false;
             }
         }
         $(function(){
             rotate();
         });
-        /*$(window).bind( 'orientationchange', function(e){
+        
+        $(window).bind( 'orientationchange', function(e){
             rotate();
-        });*/
+        });
     </script>
 </head>
 <body>
