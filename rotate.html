@@ -24,7 +24,7 @@
     <script>
         function rotate() {
             if (window.orientation == 0 || window.orientation == 180) {
-                $("html").addClass("orient");
+                $("html").addClass("orient-0");
                 return false;
             }else if (window.orientation == 90 || window.orientation == -90) {
                 $("html").addClass("orient-90");
@@ -35,9 +35,9 @@
             rotate();
         });
         
-        /*$(window).bind( 'orientationchange', function(e){
+        $(window).bind( 'orientationchange', function(e){
             rotate();
-        });*/
+        });
     </script>
 </head>
 <body>
