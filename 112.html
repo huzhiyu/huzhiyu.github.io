@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+    <script>
+        function orient() {
+            var gete= window.orientation;
+            alert(gete);
+            if (window.orientation == 0 || window.orientation == 180) {
+                console.log(1);
+                $("body").attr("class", "portrait");
+                orientation = 'portrait';
+                return false;
+            }
+            else if (window.orientation == 90 || window.orientation == -90) {
+                console.log(2);
+                $("body").attr("class", "landscape");
+                orientation = 'landscape';
+                return false;
+            }else{
+                console.log(5);
+            }
+        }
+        $(function(){
+            console.log(3);
+            orient();
+        });
+        $(window).bind( 'orientationchange', function(e){
+            console.log(4);
+            orient();
+        });
+    </script>
+</head>
+<body>
+
+<div data-role="page">
+    <div data-role="header">
+        <h1>orientationchange 事件</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>翻转设备!</p>
+        <p><b>注意：</b>你必须使用一个移动设备或移动仿真器查看事件运行效果。</p>
+    </div>
+
+    <div data-role="footer">
+        <h1>底部文本</h1>
+    </div>
+</div>
+
+</body>
+</html>
