@@ -7,7 +7,7 @@
     <script src="http://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
     <script>
         function rotate() {
-            if (window.orientation == 90 || window.orientation == -90) {
+            if (window.orientation != 90 || window.orientation != -90) {
                 alert(111);
                 return false;
             }
