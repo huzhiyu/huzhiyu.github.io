@@ -9,13 +9,17 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <script src="http://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.js"></script>
     <script>
         function rotate() {
             if (window.orientation == 0 || window.orientation == 180) {
+                $("body").attr("class", "landscape");
+                orientation = 'landscape';
                 alert(1111);
                 return false;
             }else if (window.orientation == 90 || window.orientation == -90) {
+                $("body").attr("class", "landscape");
+                orientation = 'landscape';
                 return false;
             }
         }
