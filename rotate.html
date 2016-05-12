@@ -11,8 +11,8 @@
             alert(gete);
             if (window.orientation == 0 || window.orientation == 180) {
                 console.log(1);
-                $("body").attr("class", "portrait");
-                orientation = 'portrait';
+                $("body").attr("class", "landscape");
+                orientation = 'landscape';
                 return false;
             }
             else if (window.orientation == 90 || window.orientation == -90) {
