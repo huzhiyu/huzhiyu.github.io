@@ -11,15 +11,13 @@ require(["zepto","signature_pad"],function(){
         if (window.orientation == 0 || window.orientation == 180) {
             $("body").attr("class", "orient-90");
             return false;
-        }
-        else if (window.orientation == 90 || window.orientation == -90) {
+        } else if (window.orientation == 90 || window.orientation == -90) {
             $("body").attr("class", "orient-0");
             return false;
         }
     }
     $(function(){
         orient();
-        window.location.reload();
     });
     $(window).bind( 'orientationchange', function(e){
         orient();
