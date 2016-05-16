@@ -6,16 +6,9 @@ require.config({
     }
 })
 require(["zepto","signature_pad"],function(){
-    /*var canvas = document.querySelector("canvas");
-    var ratio =  Math.max(window.devicePixelRatio || 1, 1);
-    canvas.width = document.body.offsetWidth  ;
-    canvas.height = document.body.offsetHeight ;
-    var signaturePad = new SignaturePad(canvas,{
-    });*/
-    //signaturePad.penColor="rgb(255,255,0)";
     var height=$(".name-bor1").height();
     $(".name-p").css("line-height",height+'px');
-    /*function orient() {
+    function orient() {
         if (window.orientation == 0 || window.orientation == 180) {
             $("body").addClass("orient-90");
             return false;
@@ -30,7 +23,7 @@ require(["zepto","signature_pad"],function(){
     });
     $(window).bind( 'orientationchange', function(e){
         orient();
-    });*/
+    });
 
     signaturePad=initCanvas();
 
