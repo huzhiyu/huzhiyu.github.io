@@ -1,4 +1,3 @@
-alert(cs);
 require.config({
     paths: {
         "zepto": "http://apps.bdimg.com/libs/zepto/1.1.4/zepto.min",
@@ -10,6 +9,7 @@ require(["zepto","signature_pad"],function(){
     $(".name-p").css("line-height",height+'px');
     function orient() {
         if (window.orientation == 0 || window.orientation == 180) {
+            alert(cs);
             $("body").addClass("orient-90");
             return false;
         }
