@@ -1,3 +1,4 @@
+alert(cs);
 require.config({
     paths: {
         "zepto": "http://apps.bdimg.com/libs/zepto/1.1.4/zepto.min",
