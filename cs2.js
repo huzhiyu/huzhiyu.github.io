@@ -9,12 +9,13 @@ require(["zepto","signature_pad"],function(){
     $(".name-p").css("line-height",height+'px');
     function orient() {
         if (window.orientation == 0 || window.orientation == 180) {
-            $("body").addClass("orient-90");
+            $("body").attr("class", "orient-90");
+            $("body").addClass("");
             window.location.reload();
             return false;
         }
         else if (window.orientation == 90 || window.orientation == -90) {
-            $("body").addClass("orient-0");
+            $("body").attr("class", "orient-0");
             window.location.reload();
             return false;
         }
