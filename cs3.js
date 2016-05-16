@@ -10,18 +10,16 @@ require(["zepto","signature_pad"],function(){
     function orient() {
         if (window.orientation == 0 || window.orientation == 180) {
             $("body").attr("class", "orient-90");
-            $("body").addClass("");
-            window.location.reload();
             return false;
         }
         else if (window.orientation == 90 || window.orientation == -90) {
             $("body").attr("class", "orient-0");
-            window.location.reload();
             return false;
         }
     }
     $(function(){
         orient();
+        window.location.reload();
     });
     $(window).bind( 'orientationchange', function(e){
         orient();
