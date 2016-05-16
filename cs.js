@@ -5,14 +5,18 @@ require.config({
     }
 })
 require(["zepto","signature_pad"],function(){
-    var height=$(".name-bor1").height();
-    $(".name-p").css("line-height",height+'px');
+    var ww = window.innerWidth;
+    var wh = window.innerHeight;
     function orient() {
         if (window.orientation == 0 || window.orientation == 180) {
-            $("html").attr("class", "orient-90");
+            $('html').css({'width':wh+'px','height':ww+'px'});
+            var height=$(".name-bor1").height();
+            $(".name-p").css("line-height",height+'px');
             return false;
         } else if (window.orientation == 90 || window.orientation == -90) {
-            $("html").attr("class", "orient-0");
+            $('html').css({'width':ww+'px','height':wh+'px'});
+            var height=$(".name-bor1").height();
+            $(".name-p").css("line-height",height+'px');
             return false;
         }
     }
