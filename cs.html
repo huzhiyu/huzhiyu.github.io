@@ -20,7 +20,7 @@
                 url:'https://api.weixin.qq.com/cgi-bin/token',
                 data:{"grant_type":"client_credential","appid":"wxca129b09db17bb21","secret":"393e3333b4fb21b7f7c4eb4b2c2a1008"},
                 cache:false,
-                dataType:'json'
+                dataType:'json',
                 success:function(data){
                     if( data.expires_in !="" ){
                         alert(1);
