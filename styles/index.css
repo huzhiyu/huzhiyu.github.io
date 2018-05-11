@@ -111,7 +111,15 @@ h2 {
     border-left: .06666667em solid black;
     /* 1/15 */
 }
-
+.edu-content-job  {
+    display: inline-block;
+    margin-left: 6.7em;
+    /* (87+10+4-0.5)/15 */
+    padding-left: .9em;
+    /* 13.5/15 */
+    border-left: .06666667em solid black;
+    color: rgb(102, 121, 223);
+}
 .edu-title {
     font-weight: bold;
     margin-bottom: .2em;
