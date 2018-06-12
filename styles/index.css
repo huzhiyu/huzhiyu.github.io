@@ -4,13 +4,13 @@ body {
     line-height: 1.8em;
     display: flex;
     justify-content: center;
-    background-color: rgb(242,242,242);
+    background-color: rgb(242, 242, 242);
 }
 
 .container {
     margin: 3.5em 0;
     padding: 2.66666667em 3em;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 0 1.8em rgba(33, 33, 33, 0.33);
     /* 40/15 */
 }
@@ -35,7 +35,6 @@ dl dt {
     font-size: 1.04em;
 }
 
-
 /* css for header */
 
 header {
@@ -57,9 +56,7 @@ address {
     display: inline-block;
 }
 
-
 /* end header */
-
 
 /* css for content */
 
@@ -80,7 +77,6 @@ h2 {
     border-bottom: 1px solid black;
 }
 
-
 /* end content */
 
 .circle {
@@ -93,7 +89,6 @@ h2 {
     border-radius: 100%;
     display: inline-block;
 }
-
 
 /* css for education */
 
@@ -111,7 +106,8 @@ h2 {
     border-left: .06666667em solid black;
     /* 1/15 */
 }
-.edu-content-job  {
+
+.edu-content-job {
     display: inline-block;
     margin-left: 6.7em;
     /* (87+10+4-0.5)/15 */
@@ -120,6 +116,7 @@ h2 {
     border-left: .06666667em solid black;
     color: rgb(102, 121, 223);
 }
+
 .edu-title {
     font-weight: bold;
     margin-bottom: .2em;
@@ -134,9 +131,17 @@ h2 {
     /* (87+10+4-0.5)/15 */
 }
 
-
 /* end education */
 
+/* css for wechat */
+
+.wechat-img {
+    width: 40%;
+    height: 40%;
+    display: block;
+}
+
+/* end wechat */
 
 /* css for project */
 
@@ -152,17 +157,20 @@ h2 {
     border-left: .06666667em solid black;
     /* 1px */
 }
+
 .project .circle {
     margin-left: 0em;
 }
+
 .project dl dd:first-child {
     padding-top: .66666667em;
     /* 10/15 */
 }
+
 .project dl dd:first-child span {
     display: inline-block;
     /*width: 6em;*/
-    background-color: rgb(233,236,251);
+    background-color: rgb(233, 236, 251);
     color: rgb(102, 121, 223);
     font-size: .8em;
     text-align: center;
@@ -171,6 +179,7 @@ h2 {
     border-radius: .75em;
     padding: 0 1em;
 }
+
 .project dl dd:last-child {
     padding-bottom: .66666667em;
 }
@@ -186,7 +195,6 @@ h2 {
     font-size: .875em;
     /* 14/16 */
 }
-
 
 /* end project */
 
@@ -205,7 +213,6 @@ h2 {
     padding-right: .33333333em;
     /* 5/15 */
 }
-
 
 /* css for skill */
 
@@ -227,9 +234,7 @@ h2 {
     margin-bottom: 0;
 }
 
-
 /* end skill */
-
 
 /* css for footer */
 
@@ -239,9 +244,7 @@ footer {
     margin: 3em 0 2em;
 }
 
-
 /* end footer */
-
 
 /* css for media */
 
@@ -249,18 +252,23 @@ footer {
     .container {
         width: 900px;
     }
+
     header {
         justify-content: space-between;
     }
+
     .title {
         text-align: left;
     }
+
     .content > article {
         width: 27em;
     }
+
     .content > article:first-child {
         padding-right: 3em;
     }
+
     .content > article:last-child {
         padding-left: 3em;
     }
@@ -270,27 +278,32 @@ footer {
     .container {
         width: 95%;
     }
+
     .content > article {
         width: 100%;
     }
+
     header,
     .content {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
     .title {
         text-align: center;
     }
+
     header {
         align-items: center;
     }
+
     .content > article {
         padding: 0;
     }
+
     address {
         font-size: .94em;
     }
 }
-
 
 /* end media */
