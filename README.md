@@ -1,4 +1,2 @@
-# 湖之鱼
-林子啜茗于湖滨之肆，丛柳蔽窗，湖水皆黯碧如染，小鱼百数来会其下。<br/>
-戏嚼豆脯唾之，群鱼争喋。然随喋随逝，继而存者，三四鱼焉。再唾之，坠缀葑草之上，不食矣。始谓鱼之逝者皆饱也。寻丈之外，水纹攒动，争喋他物如故。<br/>
-余方悟：钓者之将下钩，必先投食以引之。鱼图食而并吞钩。久乃知，凡下食者皆将有钩矣。然则名利之薮，独无钩乎？不及其盛下食之时而去之，其能脱钩而逝者几何也？
+# huzhiyu
+When the fisherman is hanging the hook, he must first use the bait as a lure. If the fish wants to eat, he will swallow the hook at the same time. After a long time, the fish knows that most of the places where there are bait foods have hooks. However, there is no other hook in the place where fame and fortune gather? If you don’t take advantage of the timing of others’ frequent eating and escape in time, how many people can escape and get rid of it?
