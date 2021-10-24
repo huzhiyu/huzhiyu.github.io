@@ -1,59 +1,59 @@
 body {
-    font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    line-height: 1.8em;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(242, 242, 242);
+  font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8em;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
 }
 
 .container {
-    margin: 3.5em 0;
-    padding: 2.66666667em 3em;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 1.8em rgba(33, 33, 33, 0.33);
-    /* 40/15 */
+  margin: 3.5em 0;
+  padding: 2.66666667em 3em;
+  background-color: #fff;
+  box-shadow: 0 0 1.8em rgba(33, 33, 33, .33);
+  /* 40/15 */
 }
 
 h1,
 strong,
 a {
-    color: rgb(102, 121, 223);
+  color: #6679df;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 dl {
-    margin: 0;
+  margin: 0;
 }
 
 dl dt {
-    font-weight: bold;
-    font-size: 1.04em;
+  font-weight: bold;
+  font-size: 1.04em;
 }
 
 /* css for header */
 
 header {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .contact li span {
-    width: 5.33333333em;
-    /* 80/15 */
-    text-align: right;
-    display: inline-block;
+  width: 5.33333333em;
+  /* 80/15 */
+  text-align: right;
+  display: inline-block;
 }
 
 /* end header */
@@ -61,74 +61,74 @@ address {
 /* css for content */
 
 .content {
-    display: flex;
-    margin-top: 1.33333333em;
+  display: flex;
+  margin-top: 1.33333333em;
 }
 
 .content > article > section {
-    padding: .5em 0;
+  padding: .5em 0;
 }
 
 h2 {
-    font-size: 1.33333333em;
-    /* 20/15 */
-    padding-bottom: .33333333em;
-    /* 5/15 */
-    border-bottom: 1px solid black;
+  font-size: 1.33333333em;
+  /* 20/15 */
+  padding-bottom: .33333333em;
+  /* 5/15 */
+  border-bottom: 1px solid #000;
 }
 
 /* end content */
 
 .circle {
-    width: .53333333em;
-    height: .53333333em;
-    /* 8/15 */
-    margin: 0 .66666667em;
-    /* 10/15 */
-    background: black;
-    border-radius: 100%;
-    display: inline-block;
+  width: .53333333em;
+  height: .53333333em;
+  /* 8/15 */
+  margin: 0 .66666667em;
+  /* 10/15 */
+  background-color: #000;
+  border-radius: 100%;
+  display: inline-block;
 }
 
 /* css for education */
 
 .edu-year {
-    width: 5.8em;
-    display: inline-block;
+  width: 5.8em;
+  display: inline-block;
 }
 
 .edu-content {
-    display: inline-block;
-    margin-left: 6.7em;
-    /* (87+10+4-0.5)/15 */
-    padding-left: .9em;
-    /* 13.5/15 */
-    border-left: .06666667em solid black;
-    /* 1/15 */
+  display: inline-block;
+  margin-left: 6.7em;
+  /* (87+10+4-0.5)/15 */
+  padding-left: .9em;
+  /* 13.5/15 */
+  border-left: .06666667em solid #000;
+  /* 1/15 */
 }
 
 .edu-content-job {
-    display: inline-block;
-    margin-left: 6.7em;
-    /* (87+10+4-0.5)/15 */
-    padding-left: .9em;
-    /* 13.5/15 */
-    border-left: .06666667em solid black;
-    color: rgb(102, 121, 223);
+  display: inline-block;
+  margin-left: 6.7em;
+  /* (87+10+4-0.5)/15 */
+  padding-left: .9em;
+  /* 13.5/15 */
+  border-left: .06666667em solid #000;
+  color: #6679df;
 }
 
 .edu-title {
-    font-weight: bold;
-    margin-bottom: .2em;
-    /* 3/15 */
-    display: inline-block;
+  font-weight: bold;
+  margin-bottom: .2em;
+  /* 3/15 */
+  display: inline-block;
 }
 
 .edu-placeholder {
-    height: .625em;
-    border-left: 1px solid black;
-    margin-left: 6.7em;
-    /* (87+10+4-0.5)/15 */
+  height: .625em;
+  border-left: 1px solid #000;
+  margin-left: 6.7em;
+  /* (87+10+4-0.5)/15 */
 }
 
 /* end education */
@@ -136,9 +136,9 @@ h2 {
 /* css for wechat */
 
 .wechat-img {
-    width: 40%;
-    height: 40%;
-    display: block;
+  width: 40%;
+  height: 40%;
+  display: block;
 }
 
 /* end wechat */
@@ -146,54 +146,55 @@ h2 {
 /* css for project */
 
 .project dl dt {
-    margin-bottom: .2em;
+  margin-bottom: .2em;
 }
 
 .project dl dd {
-    margin-left: .26666666em;
-    /* 26666666.5/2 */
-    padding-left: .9em;
-    /* 13.5/15 */
-    border-left: .06666667em solid black;
-    /* 1px */
+  margin-left: .26666666em;
+  /* 26666666.5/2 */
+  padding-left: .9em;
+  /* 13.5/15 */
+  border-left: .06666667em solid #000;
+  /* 1px */
 }
 
 .project .circle {
-    margin-left: 0em;
+  margin-left: 0;
 }
 
 .project dl dd:first-child {
-    padding-top: .66666667em;
-    /* 10/15 */
+  padding-top: .66666667em;
+  /* 10/15 */
 }
 
 .project dl dd:first-child span {
-    display: inline-block;
-    /*width: 6em;*/
-    background-color: rgb(233, 236, 251);
-    color: rgb(102, 121, 223);
-    font-size: .8em;
-    text-align: center;
-    margin-left: 1em;
-    line-height: 1.5em;
-    border-radius: .75em;
-    padding: 0 1em;
+  display: inline-block;
+  /*width: 6em;*/
+  background-color: #e9ecfb;
+  color: #6679df;
+  font-size: .8em;
+  text-align: center;
+  margin-left: 1em;
+  line-height: 1.5em;
+  border-radius: .75em;
+  padding: 0 1em;
 }
 
 .project dl dd:last-child {
-    padding-bottom: .66666667em;
+  padding-bottom: .66666667em;
 }
 
 .key-point {
-    background: rgb(102, 121, 223);
-    color: white;
-    padding: .13333333em .33333333em;
-    /* 2px 5px */
-    margin: .33333333em 0 .6em;
-    /* 5/15 */
-    display: inline-block;
-    font-size: .875em;
-    /* 14/16 */
+  background-color: #6679df;
+  color: #fff;
+  padding: .13333333em .66666666em;
+  /* 2px 5px */
+  margin: .33333333em 0 .6em;
+  /* 5/15 */
+  display: inline-block;
+  font-size: .875em;
+  /* 14/16 */
+  border-radius: 4px;
 }
 
 /* end project */
@@ -203,35 +204,35 @@ h2 {
 .other-item li:before,
 .eval-item li:before,
 .project dl dd li:before {
-    content: "";
-    background: url('../img/check.png') no-repeat;
-    background-size: .8em .8em;
-    /* 12/15 */
-    display: inline-block;
-    width: .8em;
-    height: .8em;
-    padding-right: .33333333em;
-    /* 5/15 */
+  content: "";
+  background: url('../img/check.png') no-repeat;
+  background-size: .8em .8em;
+  /* 12/15 */
+  display: inline-block;
+  width: .8em;
+  height: .8em;
+  padding-right: .33333333em;
+  /* 5/15 */
 }
 
 /* css for skill */
 
 .skill-item dd {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .skill-item dt {
-    margin: .33333333em 0;
-    /* 5/15 */
+  margin: .33333333em 0;
+  /* 5/15 */
 }
 
 .skill-item {
-    margin-bottom: 1em;
-    /* 15/15 */
+  margin-bottom: 1em;
+  /* 15/15 */
 }
 
 .skill-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* end skill */
@@ -239,9 +240,9 @@ h2 {
 /* css for footer */
 
 footer {
-    text-align: center;
-    font-size: .8em;
-    margin: 3em 0 2em;
+  text-align: center;
+  font-size: .8em;
+  margin: 3em 0 2em;
 }
 
 /* end footer */
@@ -249,61 +250,61 @@ footer {
 /* css for media */
 
 @media screen and (min-width: 900px) {
-    .container {
-        width: 900px;
-    }
+  .container {
+    width: 900px;
+  }
 
-    header {
-        justify-content: space-between;
-    }
+  header {
+    justify-content: space-between;
+  }
 
-    .title {
-        text-align: left;
-    }
+  .title {
+    text-align: left;
+  }
 
-    .content > article {
-        width: 27em;
-    }
+  .content > article {
+    width: 29em;
+  }
 
-    .content > article:first-child {
-        padding-right: 3em;
-    }
+  .content > article:first-child {
+    padding-right: 1em;
+  }
 
-    .content > article:last-child {
-        padding-left: 3em;
-    }
+  .content > article:last-child {
+    padding-left: 1em;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .container {
-        width: 95%;
-    }
+  .container {
+    width: 95%;
+  }
 
-    .content > article {
-        width: 100%;
-    }
+  .content > article {
+    width: 100%;
+  }
 
-    header,
-    .content {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+  header,
+  .content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 
-    .title {
-        text-align: center;
-    }
+  .title {
+    text-align: center;
+  }
 
-    header {
-        align-items: center;
-    }
+  header {
+    align-items: center;
+  }
 
-    .content > article {
-        padding: 0;
-    }
+  .content > article {
+    padding: 0;
+  }
 
-    address {
-        font-size: .94em;
-    }
+  address {
+    font-size: .94em;
+  }
 }
 
 /* end media */
