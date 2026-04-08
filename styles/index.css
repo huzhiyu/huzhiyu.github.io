@@ -23,6 +23,7 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -62,7 +63,7 @@ address {
 
 .content {
   display: flex;
-  margin-top: 1.33333333em;
+  margin-top: 0;
 }
 
 .content > article > section {
@@ -75,6 +76,7 @@ h2 {
   padding-bottom: .33333333em;
   /* 5/15 */
   border-bottom: 1px solid #000;
+  margin: 0;
 }
 
 /* end content */
@@ -258,9 +260,9 @@ footer {
 
 /* css for media */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1260px) {
   .container {
-    width: 900px;
+    width: 1260px;
   }
 
   header {
@@ -272,7 +274,7 @@ footer {
   }
 
   .content > article {
-    width: 29em;
+    width: 50%;
   }
 
   .content > article:first-child {
@@ -284,7 +286,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1260px) {
   .container {
     width: 95%;
   }
